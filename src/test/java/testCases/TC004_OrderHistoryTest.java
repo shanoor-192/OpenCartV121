@@ -32,8 +32,6 @@ public class TC004_OrderHistoryTest extends BaseClass {
 			boolean targetPage1 = myacc.isMyAccountPageExist();
 			
 			
-			
-			
 			if (targetPage1==true) {
 				logger.info("Clicking on \'View Order History\' button...");
 				myacc.clickViewOrderHistory();
