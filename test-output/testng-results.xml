@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-08T14:57:13 EDT" name="Master Suite" finished-at="2024-09-08T14:57:20 EDT" duration-ms="7168">
+    <groups>
+      <group name="sanity">
+        <method signature="TC004_OrderHistoryTest.verify_order_history()[pri:0, instance:testCases.TC004_OrderHistoryTest@4de025bf]" name="verify_order_history" class="testCases.TC004_OrderHistoryTest"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="TC004_OrderHistoryTest.verify_order_history()[pri:0, instance:testCases.TC004_OrderHistoryTest@4de025bf]" name="verify_order_history" class="testCases.TC004_OrderHistoryTest"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2024-09-08T14:57:13 EDT" name="Test" finished-at="2024-09-08T14:57:20 EDT" duration-ms="7168">
+      <class name="testCases.TC004_OrderHistoryTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_OrderHistoryTest@4de025bf]" started-at="2024-09-08T14:57:13 EDT" name="setup" finished-at="2024-09-08T14:57:17 EDT" duration-ms="4155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_order_history()[pri:0, instance:testCases.TC004_OrderHistoryTest@4de025bf]" started-at="2024-09-08T14:57:17 EDT" name="verify_order_history" finished-at="2024-09-08T14:57:20 EDT" duration-ms="2663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_order_history -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC004_OrderHistoryTest@4de025bf]" started-at="2024-09-08T14:57:20 EDT" name="tearDown" finished-at="2024-09-08T14:57:20 EDT" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC004_OrderHistoryTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Master Suite -->
+</testng-results>
