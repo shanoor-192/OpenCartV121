@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-09T11:16:12 EDT" name="Master Suite" finished-at="2024-09-09T11:16:19 EDT" duration-ms="7122">
+  <suite started-at="2024-09-11T13:45:22 EDT" name="Master Suite" finished-at="2024-09-11T13:45:29 EDT" duration-ms="7041">
     <groups>
       <group name="sanity">
         <method signature="TC004_OrderHistoryTest.verify_order_history()[pri:0, instance:testCases.TC004_OrderHistoryTest@2f94c4db]" name="verify_order_history" class="testCases.TC004_OrderHistoryTest"/>
@@ -11,9 +11,9 @@
         <method signature="TC004_OrderHistoryTest.verify_order_history()[pri:0, instance:testCases.TC004_OrderHistoryTest@2f94c4db]" name="verify_order_history" class="testCases.TC004_OrderHistoryTest"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2024-09-09T11:16:12 EDT" name="Test" finished-at="2024-09-09T11:16:19 EDT" duration-ms="7122">
+    <test started-at="2024-09-11T13:45:22 EDT" name="Test" finished-at="2024-09-11T13:45:29 EDT" duration-ms="7041">
       <class name="testCases.TC004_OrderHistoryTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_OrderHistoryTest@2f94c4db]" started-at="2024-09-09T11:16:12 EDT" name="setup" finished-at="2024-09-09T11:16:16 EDT" duration-ms="4106" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_OrderHistoryTest@2f94c4db]" started-at="2024-09-11T13:45:22 EDT" name="setup" finished-at="2024-09-11T13:45:26 EDT" duration-ms="4115" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,11 +29,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_order_history()[pri:0, instance:testCases.TC004_OrderHistoryTest@2f94c4db]" started-at="2024-09-09T11:16:16 EDT" name="verify_order_history" finished-at="2024-09-09T11:16:19 EDT" duration-ms="2638" status="PASS">
+        <test-method signature="verify_order_history()[pri:0, instance:testCases.TC004_OrderHistoryTest@2f94c4db]" started-at="2024-09-11T13:45:26 EDT" name="verify_order_history" finished-at="2024-09-11T13:45:29 EDT" duration-ms="2585" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_order_history -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC004_OrderHistoryTest@2f94c4db]" started-at="2024-09-09T11:16:19 EDT" name="tearDown" finished-at="2024-09-09T11:16:19 EDT" duration-ms="159" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC004_OrderHistoryTest@2f94c4db]" started-at="2024-09-11T13:45:29 EDT" name="tearDown" finished-at="2024-09-11T13:45:29 EDT" duration-ms="150" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

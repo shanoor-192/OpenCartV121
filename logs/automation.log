@@ -1,29 +1,16 @@
-11:01:28.094 [main] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient - ep-0000000001 releasing valid endpoint
-11:01:28.096 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000001 releasing endpoint
-11:01:28.096 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000001 connection http-outgoing-0 can be kept alive for 3 MINUTES
-11:01:28.096 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000001 connection released [route: {s}->https://raw.githubusercontent.com:443][total available: 1; route allocated: 1 of 5; total allocated: 1 of 25]
-11:01:28.097 [main] DEBUG io.github.bonigarcia.wdm.versions.VersionDetector - Detecting chrome version using online commands.properties
-11:01:28.099 [main] DEBUG io.github.bonigarcia.wdm.versions.Shell - Running command on the shell: [cmd.exe, /C, wmic, datafile, where, name="%PROGRAMFILES:\=\\%\\Google\\Chrome\\Application\\chrome.exe", get, Version, /value]
-11:01:28.192 [main] DEBUG io.github.bonigarcia.wdm.versions.Shell - Result: Version=128.0.6613.120
-11:01:28.195 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome128=128.0.6613.119 in cache (valid until 12:37:31 09/09/2024 EDT)
-11:01:28.195 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
-11:01:28.196 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Storing resolution chrome=128 in cache (valid until 12:01:28 09/09/2024 EDT)
-11:01:28.235 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 128.0.6613.119 found in cache
-11:01:28.235 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\s2sha\.cache\selenium\chromedriver\win64\128.0.6613.119\chromedriver.exe
-11:01:30.868 [main] INFO  testCases.TC004_OrderHistoryTest - **Starting TC004_OrderHistoryTest**
-11:01:32.726 [main] INFO  testCases.TC004_OrderHistoryTest - Clicking on 'View Order History' button...
-11:01:33.191 [main] INFO  testCases.TC004_OrderHistoryTest - Verifying order contents matches...
-11:01:33.212 [main] INFO  testCases.TC004_OrderHistoryTest - Expecting 7 to be inside of Showing 1 to 7 of 7 (1 Pages)
-11:01:33.214 [main] INFO  testCases.TC004_OrderHistoryTest - Logging out of account...
-11:16:11.773 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\s2sha\OneDrive\Desktop\JavaProjWorkSpc\OpenCartV121\master.xml"
-11:16:13.613 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 5.9.2
-11:16:13.782 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=128 in cache (valid until 12:01:28 09/09/2024 EDT)
-11:16:13.783 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome128=128.0.6613.119 in cache (valid until 12:37:31 09/09/2024 EDT)
-11:16:13.784 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.119 (resolved driver for Chrome 128)
-11:16:13.814 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 128.0.6613.119 found in cache
-11:16:13.815 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\s2sha\.cache\selenium\chromedriver\win64\128.0.6613.119\chromedriver.exe
-11:16:16.414 [main] INFO  testCases.TC004_OrderHistoryTest - **Starting TC004_OrderHistoryTest**
-11:16:17.955 [main] INFO  testCases.TC004_OrderHistoryTest - Clicking on 'View Order History' button...
-11:16:18.389 [main] INFO  testCases.TC004_OrderHistoryTest - Verifying order contents matches...
-11:16:18.407 [main] INFO  testCases.TC004_OrderHistoryTest - Expecting 7 to be inside of Showing 1 to 7 of 7 (1 Pages)
-11:16:18.409 [main] INFO  testCases.TC004_OrderHistoryTest - Logging out of account...
+13:41:53.056 [main] INFO  testCases.TC004_OrderHistoryTest - Clicking on 'View Order History' button...
+13:41:53.503 [main] INFO  testCases.TC004_OrderHistoryTest - Verifying order contents matches...
+13:41:53.524 [main] INFO  testCases.TC004_OrderHistoryTest - Expecting 7 to be inside of Showing 1 to 7 of 7 (1 Pages)
+13:41:53.526 [main] INFO  testCases.TC004_OrderHistoryTest - Logging out of account...
+13:45:22.267 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\s2sha\OneDrive\Desktop\JavaProjWorkSpc\OpenCartV121\master.xml"
+13:45:24.068 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 5.9.2
+13:45:24.223 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=128 in cache (valid until 14:36:07 11/09/2024 EDT)
+13:45:24.224 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome128=128.0.6613.137 in cache (valid until 13:36:07 12/09/2024 EDT)
+13:45:24.225 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 128.0.6613.137 (resolved driver for Chrome 128)
+13:45:24.264 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 128.0.6613.137 found in cache
+13:45:24.265 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\s2sha\.cache\selenium\chromedriver\win64\128.0.6613.137\chromedriver.exe
+13:45:26.838 [main] INFO  testCases.TC004_OrderHistoryTest - **Starting TC004_OrderHistoryTest**
+13:45:28.290 [main] INFO  testCases.TC004_OrderHistoryTest - Clicking on 'View Order History' button...
+13:45:28.715 [main] INFO  testCases.TC004_OrderHistoryTest - Verifying order contents matches...
+13:45:28.735 [main] INFO  testCases.TC004_OrderHistoryTest - Expecting 7 to be inside of Showing 1 to 7 of 7 (1 Pages)
+13:45:28.737 [main] INFO  testCases.TC004_OrderHistoryTest - Logging out of account...
