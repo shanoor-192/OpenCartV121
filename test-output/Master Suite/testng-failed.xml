@@ -8,13 +8,13 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC004_OrderHistoryTest">
+      <class name="testCases.TC006_E2ETest">
         <methods>
+          <include name="verify_e2e_purchase"/>
           <include name="tearDown"/>
-          <include name="verify_order_history"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC004_OrderHistoryTest -->
+      </class> <!-- testCases.TC006_E2ETest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

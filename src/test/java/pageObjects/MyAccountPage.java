@@ -6,7 +6,6 @@ import org.openqa.selenium.support.FindBy;
 
 public class MyAccountPage extends BasePage{
 
-	WebDriver driver;
 	
 	public MyAccountPage(WebDriver driver) {
 		

@@ -10,7 +10,6 @@ import org.openqa.selenium.support.FindBys;
 
 public class OrderHistoryPage extends BasePage {
 
-	WebDriver driver;
 	
 	public OrderHistoryPage(WebDriver driver) {
 		super(driver);

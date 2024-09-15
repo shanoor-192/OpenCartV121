@@ -12,10 +12,12 @@ import java.util.Properties;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.logging.log4j.LogManager; // Log4j
 import org.apache.logging.log4j.Logger; // Log4j
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -25,6 +27,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
+import freemarker.core.JavaScriptCFormat;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseClass {
@@ -142,6 +145,14 @@ public class BaseClass {
 		sourceFile.renameTo(targetFile);
 		
 		return targetFilePath;
+		
+	}
+	
+	public void scrollIntoViewElem(WebElement element) {
+		
+		JavascriptExecutor jse = (JavascriptExecutor) driver;
+		jse.executeScript("arguments[0].scrollIntoView()", element);
+		
 		
 	}
 	
